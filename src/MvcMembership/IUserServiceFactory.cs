@@ -5,8 +5,15 @@ using System.Text;
 
 namespace MvcMembership
 {
-	public interface IUserServiceFactory
-	{
-		IUserService Make();
-	}
+    /// <summary>
+    /// User Service Factory InterfaceS
+    /// </summary>
+    public interface IUserServiceFactory
+    {
+        /// <summary>
+        /// Makes this instance.
+        /// </summary>
+        /// <returns></returns>
+        IUserService Make();
+    }
 }

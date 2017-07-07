@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata schemaVersion="2">
-	<id>MvcMembership.Mvc</id>
-	<version>3.8.0</version>
-	<authors>Troy Goode</authors>
-	<owners>TroyGoode</owners>
-	<description><![CDATA[The starter kit provides the Asp.Net MVC controllers, models, and views needed to administer users & roles.]]></description>
-	<tags>membership users administration mvc</tags>
-	<language>en-US</language>
-	<projectUrl>http://github.com/TroyGoode/MembershipStarterKit</projectUrl>
-	<licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
-	<dependencies>
-		<dependency id="PagedList" version="1.15" />
-		<dependency id="PagedList.Mvc" version="3.18" />
-		<dependency id="MvcMembership" version="3.8.0" />
-		<dependency id="DataAnnotationsExtensions.MVC3" version="0.6" />
-		<dependency id="WebActivator" version="1.4.1" />
-	</dependencies>
-	<releaseNotes>Fixed security vulenerability and a couple small bugs.</releaseNotes>
+    <id>MvcMembership.Mvc</id>
+    <version>4.0.0</version>
+    <authors>Troy Goode</authors>
+    <owners>TroyGoode</owners>
+    <description><![CDATA[The starter kit provides the Asp.Net MVC controllers, models, and views needed to administer users & roles.]]></description>
+    <tags>membership users administration mvc</tags>
+    <language>en-US</language>
+    <projectUrl>http://github.com/TroyGoode/MembershipStarterKit</projectUrl>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <dependencies>
+        <dependency id="PagedList" version="1.17" />
+        <dependency id="PagedList.Mvc" version="4.5.0.0" />
+        <dependency id="MvcMembership" version="4.0.0" />
+        <dependency id="DataAnnotationsExtensions.MVC3" version="5.0.1.20" />
+        <dependency id="WebActivatorEx" version="2.2.0" />
+        <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+    </dependencies>
+    <releaseNotes>Fixed security vulenerability and a couple small bugs.</releaseNotes>
   </metadata>
 </package>

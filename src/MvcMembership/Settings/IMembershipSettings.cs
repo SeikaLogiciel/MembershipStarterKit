@@ -1,9 +1,30 @@
 ﻿namespace MvcMembership.Settings
 {
-	public interface IMembershipSettings
-	{
-		IRegistrationSettings Registration{ get; }
-		IPasswordSettings Password{ get; }
-		ILoginSettings Login{ get; }
-	}
+    /// <summary>
+    /// Membership Settings Interface
+    /// </summary>
+    public interface IMembershipSettings
+    {
+        /// <summary>
+        /// Gets the registration.
+        /// </summary>
+        /// <value>
+        /// The registration.
+        /// </value>
+        IRegistrationSettings Registration { get; }
+        /// <summary>
+        /// Gets the password.
+        /// </summary>
+        /// <value>
+        /// The password.
+        /// </value>
+        IPasswordSettings Password { get; }
+        /// <summary>
+        /// Gets the login.
+        /// </summary>
+        /// <value>
+        /// The login.
+        /// </value>
+        ILoginSettings Login { get; }
+    }
 }

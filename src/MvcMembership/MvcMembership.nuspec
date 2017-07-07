@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata schemaVersion="2">
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$title$</title>
+        <authors>$author$</authors>
+        <owners>$author$</owners>
+        <description>$description$</description>
+        <tags>membership users administration mvc</tags>
+        <language>en-US</language>
+        <projectUrl>http://github.com/TroyGoode/MembershipStarterKit</projectUrl>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <releaseNotes>MVC 5 / .NET Framework 4.7</releaseNotes>
+    </metadata>
+</package>

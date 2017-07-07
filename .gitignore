@@ -20,3 +20,6 @@ _ReSharper*
 packages/MvcMembership/lib/40/
 packages/MvcMembership.Mvc/content/
 packages/*.nupkg
+/src/packages
+/src/.vs/config
+*.nupkg

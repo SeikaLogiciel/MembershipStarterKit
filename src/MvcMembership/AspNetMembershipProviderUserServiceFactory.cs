@@ -1,14 +1,22 @@
 ﻿namespace MvcMembership
 {
-	public class AspNetMembershipProviderUserServiceFactory : IUserServiceFactory
-	{
-		#region IUserServiceFactory Members
+    /// <summary>
+    /// Factory for AspNetMembershipProviderUserService
+    /// </summary>
+    /// <seealso cref="MvcMembership.IUserServiceFactory" />
+    public class AspNetMembershipProviderUserServiceFactory : IUserServiceFactory
+    {
+        #region IUserServiceFactory Members
 
-		public IUserService Make()
-		{
-			return new AspNetMembershipProviderWrapper();
-		}
+        /// <summary>
+        /// Makes this instance.
+        /// </summary>
+        /// <returns></returns>
+        public IUserService Make()
+        {
+            return new AspNetMembershipProviderWrapper();
+        }
 
-		#endregion
-	}
+        #endregion
+    }
 }
